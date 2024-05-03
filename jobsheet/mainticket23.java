@@ -48,10 +48,10 @@ public class mainticket23 {
 
     public static void main(String[] args) {
 
-        TicketService20 ts = new TicketService20();
+        TicketService23 ts = new TicketService23();
 
         for (int i = 0; i < ts.tickets.length; i++) {
-            Tickets20 t = new Tickets20(airlines[i], destinations[i], origins[i], prices[i]);
+            ticket23 t = new ticket23(airlines[i], destinations[i], origins[i], prices[i]);
             ts.add(t);
         }
 
